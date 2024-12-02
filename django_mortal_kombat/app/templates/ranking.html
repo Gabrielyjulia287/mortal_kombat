@@ -1,0 +1,4 @@
+<!-- ranking.html -->
+{% for ranking in rankings %}
+    <p>{{ ranking.usuario.username }} - Ganhador: {{ ranking.ganhador }} - Data: {{ ranking.data }}</p>
+{% endfor %}

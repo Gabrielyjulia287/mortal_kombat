@@ -1,0 +1,49 @@
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 3 vitórias | Player 2: 0 vitórias
+Player 1: 3 vitórias | Player 2: 0 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Jogador1 - Player 1: 0 vitórias | Player 2: 3 vitórias
+Jogador1 - Player 1: 0 vitórias | Player 2: 3 vitórias
+Jogador1 - Player 1: 0 vitórias | Player 2: 3 vitórias
+Jogador1 - Player 1: 0 vitórias | Player 2: 3 vitórias
+Jogador1 - Player 1: 3 vitórias | Player 2: 0 vitórias
+Jogador1 - Player 1: 3 vitórias | Player 2: 0 vitórias
+admin - Player 1: 0 vitórias | Player 2: 3 vitórias
+Jogador1 - Player 1: 3 vitórias | Player 2: 0 vitórias
+admin - Player 1: 3 vitórias | Player 2: 0 vitórias
+Jogador1 - Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: 0 vitórias | Player 2: 3 vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: vermelho vitórias
+Player 1: admin vitórias | Player 2: vermelho vitórias
+Player 1: admin vitórias | Player 2: admin vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: vermelho vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: vermelho vitórias
+Player 1: admin vitórias | Player 2: vermelho vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: azul vitórias
+Player 1: admin vitórias | Player 2: vermelho vitórias
+Player 1: admin vitórias | Player 2: azul vitórias

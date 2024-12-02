@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Vencedor</title>
+</head>
+<body>
+    <h1>Resultado da Partida</h1>
+    <p>Player 1 Vitórias: {{ player1_vitorias }}</p>
+    <p>Player 2 Vitórias: {{ player2_vitorias }}</p>
+
+    <h2>Vencedor: {% if player1_vitorias > player2_vitorias %}Azul{% else %}Vermelho{% endif %}</h2>
+
+    <a href="/">Voltar para o menu</a>
+</body>
+</html>
