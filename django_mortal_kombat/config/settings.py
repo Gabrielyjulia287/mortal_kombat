@@ -160,3 +160,6 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_mortal_kombat.settings')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'app', 'static'),
 ]
+
+LOGIN_REDIRECT_URL = '/'  # Redireciona para a página inicial após login
+LOGOUT_REDIRECT_URL = '/'  # Redireciona para a página inicial após logout

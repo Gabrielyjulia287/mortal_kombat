@@ -1,12 +1,21 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">  <!-- Link para o arquivo CSS -->
 </head>
 <body>
-    <h1>Welcome to Django Pygame!</h1>
-    <a href="{% url 'play_game' %}">Play Game</a>
+    <div class="container">
+        <h1>Welcome to Django Pygame!</h1>
 
-    <a href="{% url 'ranking' %}">Ranking</a>
+        <a href="{% url 'play_game' %}">Play Game</a>
+
+        <a href="{% url 'ranking' %}">Ranking</a>
+
+        <a href="{% url 'login' %}">Login</a>
+    </div>
 </body>
 </html>

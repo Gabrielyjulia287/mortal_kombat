@@ -7,6 +7,10 @@ from .models import Pontuacao
 import random  # Isso é apenas para gerar pontuação aleatória para o exemplo
 
 # Função de login
+from django.contrib.auth import authenticate, login
+from django.shortcuts import render, redirect
+from django.contrib import messages
+
 def login_view(request):
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -17,13 +21,31 @@ def login_view(request):
             
             if user is not None:
                 login(request, user)
-                return redirect('/')  # Redireciona para a página inicial após login
+                return redirect('index')  # Após o login, redireciona para a página principal (index)
             else:
                 messages.error(request, 'Usuário ou senha incorretos.')
         else:
             messages.error(request, 'Por favor, preencha ambos os campos.')
     
     return render(request, 'login.html')
+
+
+
+from django.contrib.auth.forms import UserCreationForm
+from django.shortcuts import render, redirect
+from django.contrib import messages
+
+def register(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Cadastro realizado com sucesso! Faça login para continuar.')
+            return redirect('login')  # Redireciona para a página de login
+    else:
+        form = UserCreationForm()
+    return render(request, 'register.html', {'form': form})
+
 
 # Página inicial
 

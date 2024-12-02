@@ -1,4 +1,27 @@
-<!-- ranking.html -->
-{% for ranking in rankings %}
-    <p>{{ ranking.usuario.username }} - Ganhador: {{ ranking.ganhador }} - Data: {{ ranking.data }}</p>
-{% endfor %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <!-- Carregar o arquivo CSS -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ranking.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ranking</h1>
+        {% for ranking in rankings %}
+            <div class="ranking-item">
+                <span>{{ ranking.usuario.username }}</span>
+                <p>Ganhador: {{ ranking.ganhador }}</p>
+                <small>Data: {{ ranking.data }}</small>
+            </div>
+        {% endfor %}
+        <div class="footer">
+            <p>Obrigado por jogar!</p>
+        </div>
+    </div>
+</body>
+</html>
